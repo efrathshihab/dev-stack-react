@@ -1,11 +1,15 @@
-import Banner from "./components/Banner";
 import Nav from "./components/Nav";
+import Banner from "./components/Banner";
+import Technologies from "./components/technologies/Technologies";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       <Nav />
       <Banner />
+      <Technologies />
+      <Footer />
     </>
   );
 }

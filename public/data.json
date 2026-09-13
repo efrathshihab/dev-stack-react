@@ -1,0 +1,122 @@
+[
+  {
+    "id": "react",
+    "name": "React",
+    "category": "Frontend",
+    "description": "Build interactive user interfaces with reusable components.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    "rating": 4.9,
+    "difficulty": "Intermediate",
+    "badge": "Popular"
+  },
+  {
+    "id": "vue",
+    "name": "Vue.js",
+    "category": "Frontend",
+    "description": "Create reactive web interfaces with a progressive framework.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+    "rating": 4.8,
+    "difficulty": "Beginner",
+    "badge": "Approachable"
+  },
+  {
+    "id": "angular",
+    "name": "Angular",
+    "category": "Frontend",
+    "description": "Develop structured web applications with a TypeScript framework.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
+    "rating": 4.6,
+    "difficulty": "Advanced",
+    "badge": "Full Featured"
+  },
+  {
+    "id": "svelte",
+    "name": "Svelte",
+    "category": "Frontend",
+    "description": "Write concise components that compile into browser JavaScript.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg",
+    "rating": 4.7,
+    "difficulty": "Beginner",
+    "badge": "Lightweight"
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js",
+    "category": "Backend",
+    "description": "Run JavaScript on the server to build APIs and web services.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "JavaScript"
+  },
+  {
+    "id": "express",
+    "name": "Express.js",
+    "category": "Backend",
+    "description": "Build Node.js APIs with simple routing and middleware.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+    "rating": 4.7,
+    "difficulty": "Beginner",
+    "badge": "Minimal"
+  },
+  {
+    "id": "django",
+    "name": "Django",
+    "category": "Backend",
+    "description": "Create Python web applications with built-in tools for common tasks.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Python"
+  },
+  {
+    "id": "laravel",
+    "name": "Laravel",
+    "category": "Backend",
+    "description": "Develop PHP applications with expressive routing and database tools.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg",
+    "rating": 4.7,
+    "difficulty": "Intermediate",
+    "badge": "PHP"
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "category": "Database",
+    "description": "Store relational data and query it with a feature-rich SQL database.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+    "rating": 4.9,
+    "difficulty": "Intermediate",
+    "badge": "Relational"
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "category": "Database",
+    "description": "Organize application data in flexible, document-based collections.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+    "rating": 4.7,
+    "difficulty": "Beginner",
+    "badge": "NoSQL"
+  },
+  {
+    "id": "mysql",
+    "name": "MySQL",
+    "category": "Database",
+    "description": "Manage structured application data with a relational SQL database.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+    "rating": 4.7,
+    "difficulty": "Beginner",
+    "badge": "SQL"
+  },
+  {
+    "id": "firebase",
+    "name": "Firebase",
+    "category": "Database",
+    "description": "Sync application data using managed cloud database services.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-original.svg",
+    "rating": 4.6,
+    "difficulty": "Beginner",
+    "badge": "Cloud"
+  }
+]
