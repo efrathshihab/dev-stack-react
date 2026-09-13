@@ -32,8 +32,10 @@ const TechnologyCard = ({
 
   return (
     <div
-      className={`rounded-2xl border bg-white p-5 ${
-        isAdded ? "border-pink-300" : "border-gray-200"
+      className={`rounded-2xl border bg-white p-5 transition duration-200 ease-out hover:shadow-lg hover:shadow-indigo-500/10 focus-within:shadow-md active:shadow-sm motion-safe:hover:-translate-y-1 motion-safe:active:translate-y-0 motion-safe:active:scale-[0.98] motion-reduce:transition-none ${
+        isAdded
+          ? "border-pink-300"
+          : "border-gray-200 hover:border-indigo-300 focus-within:border-indigo-300 active:border-indigo-300"
       }`}
     >
 
