@@ -16,7 +16,7 @@
     "description": "Create reactive web interfaces with a progressive framework.",
     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
     "rating": 4.8,
-    "difficulty": "Beginner",
+    "difficulty": "Beginner-Friendly",
     "badge": "Approachable"
   },
   {
@@ -36,7 +36,7 @@
     "description": "Write concise components that compile into browser JavaScript.",
     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg",
     "rating": 4.7,
-    "difficulty": "Beginner",
+    "difficulty": "Beginner-Friendly",
     "badge": "Lightweight"
   },
   {
@@ -56,7 +56,7 @@
     "description": "Build Node.js APIs with simple routing and middleware.",
     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
     "rating": 4.7,
-    "difficulty": "Beginner",
+    "difficulty": "Beginner-Friendly",
     "badge": "Minimal"
   },
   {
@@ -96,7 +96,7 @@
     "description": "Organize application data in flexible, document-based collections.",
     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
     "rating": 4.7,
-    "difficulty": "Beginner",
+    "difficulty": "Beginner-Friendly",
     "badge": "NoSQL"
   },
   {
@@ -106,7 +106,7 @@
     "description": "Manage structured application data with a relational SQL database.",
     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
     "rating": 4.7,
-    "difficulty": "Beginner",
+    "difficulty": "Beginner-Friendly",
     "badge": "SQL"
   },
   {
@@ -116,7 +116,7 @@
     "description": "Sync application data using managed cloud database services.",
     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-original.svg",
     "rating": 4.6,
-    "difficulty": "Beginner",
+    "difficulty": "Beginner-Friendly",
     "badge": "Cloud"
   }
 ]
