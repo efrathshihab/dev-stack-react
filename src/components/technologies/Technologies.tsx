@@ -7,11 +7,9 @@ const Technologies = () => {
   const [technologies, setTechnologies] = useState<ITechnology[]>([]);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(true);
-
   const [selectedTechnologies, setSelectedTechnologies] = useState<
     ITechnology[]
   >([]);
-
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data.json`)
       .then((res) => {
@@ -24,12 +22,10 @@ const Technologies = () => {
       .catch(() => setError("Unable to load technologies. Please refresh to try again."))
       .finally(() => setLoading(false));
   }, []);
-
   return (
     <section id="technologies" className="bg-white py-16">
       <div className="container mx-auto max-w-[1216px] px-5 md:px-0">
-
-        {/* Section Heading */}
+        {/*Section Heading */}
         <div className="mb-8">
           <h2 className="text-[32px] font-bold text-[#0F172A]">
             Explore the{" "}
@@ -37,13 +33,11 @@ const Technologies = () => {
               Technologies
             </span>
           </h2>
-
           <p className="mt-1 text-[14px] text-[#64748B]">
             Pick the technologies to build your ideal stack.
           </p>
         </div>
-
-        {/* Cards + Your Stack */}
+        {/* Cards + Stack */}
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-[minmax(0,1fr)_280px]">
 
           {/* Technology Cards */}
@@ -65,21 +59,19 @@ const Technologies = () => {
             {technologies.map((technology: ITechnology) => {
               return (
                 <TechnologyCard
-                  key={technology.id}
-                  technology={technology}
-                  selectedTechnologies={selectedTechnologies}
-                  setSelectedTechnologies={setSelectedTechnologies}
+            key={technology.id}
+            technology={technology}
+            selectedTechnologies={selectedTechnologies}
+            setSelectedTechnologies={setSelectedTechnologies}
                 />
               );
             })}
           </div>
-
           {/* Your Stack */}
           <YourStack
             selectedTechnologies={selectedTechnologies}
             setSelectedTechnologies={setSelectedTechnologies}
           />
-
         </div>
       </div>
     </section>

@@ -4,5 +4,8 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/dev-stack-react/",
+
+  base: process.env.VERCEL === "1"
+    ? "/"
+    : "/dev-stack-react/",
 });

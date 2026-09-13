@@ -94,7 +94,7 @@ const Footer = () => {
             );
           })}
         </div>
-
+        
         {/* Copyright and Bottom Links */}
         <div className="mt-10 flex flex-col gap-4 border-t border-slate-100 pt-6 text-[12px] leading-5 text-[#94A3B8] sm:flex-row sm:items-center sm:justify-between md:mt-14">
           <p>© {new Date().getFullYear()} Dev Stack. All rights reserved.</p>

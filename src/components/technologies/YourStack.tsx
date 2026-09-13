@@ -7,17 +7,14 @@ interface YourStackProps {
   selectedTechnologies: ITechnology[];
   setSelectedTechnologies: Dispatch<SetStateAction<ITechnology[]>>;
 }
-
 const YourStack = ({
   selectedTechnologies,
   setSelectedTechnologies,
 }: YourStackProps) => {
-
   const handleRemoveAll = () => {
     setSelectedTechnologies([]);
     toast.info("All technologies removed from your stack");
   };
-
   return (
     <aside
       aria-labelledby="your-stack-heading"
@@ -26,7 +23,6 @@ const YourStack = ({
       <h3 id="your-stack-heading" className="text-[16px] font-semibold text-[#0F172A]">
         Your Stack
       </h3>
-
       <p aria-live="polite" className="mt-1 text-[12px] text-[#94A3B8]">
         {selectedTechnologies.length === 0
           ? "No technologies selected yet."
@@ -51,7 +47,6 @@ const YourStack = ({
               );
             })}
           </div>
-
           <button
             type="button"
             onClick={handleRemoveAll}
