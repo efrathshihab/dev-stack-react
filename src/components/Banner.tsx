@@ -22,12 +22,11 @@ const Banner = () => {
           </p>
           {/*Buttons*/}
           <div className="mt-7 flex items-center gap-4">
-            <button
-              type="button"
-              className="h-[40px] w-[168px] rounded-lg bg-gradient-to-r from-blue-500 via-indigo-500 to-violet-600 text-[14px] font-semibold text-white"
+            <a href="#technologies"
+            className="flex h-[40px] w-[168px] cursor-pointer items-center justify-center rounded-lg bg-gradient-to-r from-blue-500 via-indigo-500 to-violet-600 text-[14px] font-semibold text-white"
             >
               Explore Technologies
-            </button>
+            </a>
             <button
               type="button"
               className="h-[40px] w-[123px] rounded-lg border border-gray-300 bg-white text-[14px] font-medium text-[#334155]"

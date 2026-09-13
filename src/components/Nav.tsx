@@ -75,13 +75,13 @@ const Nav = () => {
         <div className="flex items-center gap-[10px] md:gap-5">
           <button
             type="button"
-            className="h-[29px] whitespace-nowrap text-[14px] font-semibold text-[#334155] md:h-auto md:font-medium"
+            className="h-[29px] cursor-pointer whitespace-nowrap text-[14px] font-semibold text-[#334155] md:h-auto md:font-medium"
           >
             Sign In
           </button>
           <button
             type="button"
-            className="h-[26px] w-[85px] rounded-full bg-gradient-to-r from-blue-500 via-indigo-500 to-violet-600 text-[14px] font-semibold text-white shadow-sm md:h-[39px] md:w-[92px]"
+            className="h-[26px] w-[85px] cursor-pointer rounded-full bg-gradient-to-r from-blue-500 via-indigo-500 to-violet-600 text-[14px] font-semibold text-white shadow-sm md:h-[39px] md:w-[92px]"
           >
         Sign Up
           </button>
